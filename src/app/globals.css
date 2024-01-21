@@ -11,8 +11,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   font-family: Switzer,Switzer Fallback,Helvetica,Arial;
-  background-color: rgb(24 24 27);
-}
+  background-color: rgb(113 113 122);}
 
 @layer utilities {
   .text-balance {

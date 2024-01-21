@@ -1,0 +1,887 @@
+[
+    {
+        "id": 283184,
+        "title": "Buddy & Soul",
+        "type": "master",
+        "main_release": 2661442,
+        "artist": "Buddy Rich Big Band",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/283184",
+        "year": 1969,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 76,
+                "in_collection": 550
+            }
+        }
+    },
+    {
+        "id": 338162,
+        "title": "Keep The Customer Satisfied",
+        "type": "master",
+        "main_release": 6711979,
+        "artist": "Buddy Rich Big Band",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/338162",
+        "year": 1970,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 28,
+                "in_collection": 452
+            }
+        }
+    },
+    {
+        "id": 245971,
+        "title": "A Different Drummer",
+        "type": "master",
+        "main_release": 1621608,
+        "artist": "Buddy Rich",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/245971",
+        "year": 1971,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 102,
+                "in_collection": 796
+            }
+        }
+    },
+    {
+        "id": 190339,
+        "title": "Very Alive At Ronnie Scotts",
+        "type": "master",
+        "main_release": 4120013,
+        "artist": "The Buddy Rich Band*",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/190339",
+        "year": 1972,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 35,
+                "in_collection": 204
+            }
+        }
+    },
+    {
+        "id": 326032,
+        "title": "Stick It",
+        "type": "master",
+        "main_release": 2645076,
+        "artist": "Buddy Rich",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/326032",
+        "year": 1972,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 69,
+                "in_collection": 728
+            }
+        }
+    },
+    {
+        "id": 3427112,
+        "status": "Accepted",
+        "type": "release",
+        "format": "LP, Album",
+        "label": "Force 1 Records",
+        "title": "Rock N Rolls Gone Hollywood",
+        "resource_url": "https://api.discogs.com/releases/3427112",
+        "role": "Appearance",
+        "artist": "Hott Roxx",
+        "year": 1978,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 12,
+                "in_collection": 37
+            }
+        }
+    },
+    {
+        "id": 825501,
+        "title": "One Elephant, Deux \u00c9l\u00e9phants",
+        "type": "master",
+        "main_release": 13041268,
+        "artist": "Sharon, Lois & Bram",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/825501",
+        "year": 1978,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 9,
+                "in_collection": 105
+            }
+        }
+    },
+    {
+        "id": 1125691,
+        "title": "The Spy",
+        "type": "master",
+        "main_release": 2422463,
+        "artist": "Bat McGrath",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/1125691",
+        "year": 1978,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 15,
+                "in_collection": 92
+            }
+        }
+    },
+    {
+        "id": 3900710,
+        "status": "Accepted",
+        "type": "release",
+        "format": "LP",
+        "label": "RCA International",
+        "title": "The Exciting Buddy Rich",
+        "resource_url": "https://api.discogs.com/releases/3900710",
+        "role": "Appearance",
+        "artist": "Buddy Rich",
+        "year": 1979,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 13,
+                "in_collection": 93
+            }
+        }
+    },
+    {
+        "id": 11109739,
+        "status": "Accepted",
+        "type": "release",
+        "format": "LP, Album",
+        "label": "Not On Label",
+        "title": "Bigfoot Betty",
+        "resource_url": "https://api.discogs.com/releases/11109739",
+        "role": "Appearance",
+        "artist": "Bigfoot Betty",
+        "year": 1979,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 3,
+                "in_collection": 11
+            }
+        }
+    },
+    {
+        "id": 423313,
+        "title": "Smorgasbord",
+        "type": "master",
+        "main_release": 1483137,
+        "artist": "Sharon, Lois & Bram",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/423313",
+        "year": 1979,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 6,
+                "in_collection": 260
+            }
+        }
+    },
+    {
+        "id": 8914424,
+        "status": "Accepted",
+        "type": "release",
+        "format": "LP, Album",
+        "label": "Mainroads Productions Inc",
+        "title": "I Found A New World",
+        "resource_url": "https://api.discogs.com/releases/8914424",
+        "role": "Appearance",
+        "artist": "Glen Rutledge",
+        "year": 1980,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 0,
+                "in_collection": 5
+            }
+        }
+    },
+    {
+        "id": 22171831,
+        "status": "Accepted",
+        "type": "release",
+        "format": "Cass",
+        "label": "RCA International, RCA International",
+        "title": "At Ronnie Scotts",
+        "resource_url": "https://api.discogs.com/releases/22171831",
+        "role": "Appearance",
+        "artist": "Buddy Rich",
+        "year": 1980,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 1,
+                "in_collection": 1
+            }
+        }
+    },
+    {
+        "id": 754782,
+        "title": "No Compromise",
+        "type": "master",
+        "main_release": 6269651,
+        "artist": "Jim Howard - Pat Sullivan Jazz Orchestra",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/754782",
+        "year": 1980,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 5,
+                "in_collection": 10
+            }
+        }
+    },
+    {
+        "id": 1425911,
+        "title": "Singing 'N Swinging",
+        "type": "master",
+        "main_release": 2349142,
+        "artist": "Sharon, Lois & Bram Featuring Bill Usher And The Mammoth Band*",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/1425911",
+        "year": 1980,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 9,
+                "in_collection": 247
+            }
+        }
+    },
+    {
+        "id": 5330992,
+        "status": "Accepted",
+        "type": "release",
+        "format": "LP, Album",
+        "label": "Scone Records",
+        "title": "One",
+        "resource_url": "https://api.discogs.com/releases/5330992",
+        "role": "Appearance",
+        "artist": "Susan Cogan",
+        "year": 1981,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 127,
+                "in_collection": 34
+            }
+        }
+    },
+    {
+        "id": 8037278,
+        "status": "Accepted",
+        "type": "release",
+        "format": "LP",
+        "label": "Kids' Records",
+        "title": "Camping in Canada",
+        "resource_url": "https://api.discogs.com/releases/8037278",
+        "role": "Appearance",
+        "artist": "Big Bird (4) And Oscar The Grouch",
+        "year": 1981,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 19,
+                "in_collection": 55
+            }
+        }
+    },
+    {
+        "id": 10253806,
+        "status": "Accepted",
+        "type": "release",
+        "format": "LP, Album",
+        "label": "WIRL",
+        "title": "A Different Woman",
+        "resource_url": "https://api.discogs.com/releases/10253806",
+        "role": "Appearance",
+        "artist": "Carlyn Leacock*",
+        "year": 1981,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 22,
+                "in_collection": 4
+            }
+        }
+    },
+    {
+        "id": 27623259,
+        "status": "Accepted",
+        "type": "release",
+        "format": "LP",
+        "label": "Kids' Records",
+        "title": "Camping in Canada",
+        "resource_url": "https://api.discogs.com/releases/27623259",
+        "role": "Appearance",
+        "artist": "Big Bird (4) And Oscar The Grouch",
+        "year": 1981,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 0,
+                "in_collection": 1
+            }
+        }
+    },
+    {
+        "id": 600844,
+        "title": "Just Dessert",
+        "type": "master",
+        "main_release": 1109816,
+        "artist": "David Bendeth Band*",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/600844",
+        "year": 1981,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 227,
+                "in_collection": 116
+            }
+        }
+    },
+    {
+        "id": 691385,
+        "title": "The Bendeth Band",
+        "type": "master",
+        "main_release": 9916648,
+        "artist": "The Bendeth Band",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/691385",
+        "year": 1981,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 99,
+                "in_collection": 31
+            }
+        }
+    },
+    {
+        "id": 648002,
+        "title": "In The Schoolyard",
+        "type": "master",
+        "main_release": 2349116,
+        "artist": "Sharon, Lois & Bram",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/648002",
+        "year": 1981,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 5,
+                "in_collection": 188
+            }
+        }
+    },
+    {
+        "id": 2578343,
+        "status": "Accepted",
+        "type": "release",
+        "format": "12\"",
+        "label": "Tembo",
+        "title": "A New Music Mini-LP",
+        "resource_url": "https://api.discogs.com/releases/2578343",
+        "role": "Appearance",
+        "artist": "The Rick Morrison Project",
+        "year": 1982,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 4,
+                "in_collection": 33
+            }
+        }
+    },
+    {
+        "id": 2825336,
+        "title": "One, Two, Three, Four, Look Who's Coming Through The Door!",
+        "type": "master",
+        "main_release": 24835322,
+        "artist": "Sharon, Lois & Bram",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/2825336",
+        "year": 1982,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 0,
+                "in_collection": 8
+            }
+        }
+    },
+    {
+        "id": 1898889,
+        "title": "Having A Good Time",
+        "type": "master",
+        "main_release": 4748797,
+        "artist": "Bob Schneider (4)",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/1898889",
+        "year": 1983,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 3,
+                "in_collection": 18
+            }
+        }
+    },
+    {
+        "id": 402732,
+        "title": "Mainly Mother Goose",
+        "type": "master",
+        "main_release": 2663449,
+        "artist": "Sharon, Lois & Bram",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/402732",
+        "year": 1984,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 0,
+                "in_collection": 10
+            }
+        }
+    },
+    {
+        "id": 538321,
+        "title": "Jazz Monterey 1958-1980",
+        "type": "master",
+        "main_release": 4970261,
+        "artist": "Various",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/538321",
+        "year": 1984,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 8,
+                "in_collection": 112
+            }
+        }
+    },
+    {
+        "id": 852796,
+        "title": "Night Flight",
+        "type": "master",
+        "main_release": 7169553,
+        "artist": "Sammy Nestico",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/852796",
+        "year": 1985,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 14,
+                "in_collection": 28
+            }
+        }
+    },
+    {
+        "id": 696929,
+        "title": "Sharon, Lois & Bram's Elephant Show Record",
+        "type": "master",
+        "main_release": 5778655,
+        "artist": "Sharon, Lois & Bram",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/696929",
+        "year": 1986,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 15,
+                "in_collection": 139
+            }
+        }
+    },
+    {
+        "id": 1521045,
+        "title": "Stay Tuned",
+        "type": "master",
+        "main_release": 2806455,
+        "artist": "Sharon, Lois & Bram",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/1521045",
+        "year": 1987,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 3,
+                "in_collection": 64
+            }
+        }
+    },
+    {
+        "id": 594975,
+        "title": "Time Being",
+        "type": "master",
+        "main_release": 4891565,
+        "artist": "Buddy Rich",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/594975",
+        "year": 1987,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 9,
+                "in_collection": 43
+            }
+        }
+    },
+    {
+        "id": 774310,
+        "title": "The Boss Of The Boss Brass",
+        "type": "master",
+        "main_release": 6326588,
+        "artist": "Rob McConnell",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/774310",
+        "year": 1988,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 4,
+                "in_collection": 25
+            }
+        }
+    },
+    {
+        "id": 1186027,
+        "title": "Happy Birthday",
+        "type": "master",
+        "main_release": 24913493,
+        "artist": "Sharon, Lois & Bram",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/1186027",
+        "year": 1988,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 0,
+                "in_collection": 3
+            }
+        }
+    },
+    {
+        "id": 1425893,
+        "title": "Improvise With Eric Nagler",
+        "type": "master",
+        "main_release": 13001314,
+        "artist": "Eric Nagler",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/1425893",
+        "year": 1989,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 0,
+                "in_collection": 2
+            }
+        }
+    },
+    {
+        "id": 1216331,
+        "title": "The Dave McMurdo Jazz Orchestra",
+        "type": "master",
+        "main_release": 9492827,
+        "artist": "The Dave McMurdo Jazz Orchestra",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/1216331",
+        "year": 1991,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 4,
+                "in_collection": 8
+            }
+        }
+    },
+    {
+        "id": 8369498,
+        "status": "Accepted",
+        "type": "release",
+        "format": "CD, Comp, RE, RM",
+        "label": "BGO Records",
+        "title": "Swingin' New Big Band / Keep The Customer Satisfied",
+        "resource_url": "https://api.discogs.com/releases/8369498",
+        "role": "Appearance",
+        "artist": "Buddy Rich",
+        "trackinfo": "The Juicer Is Wild",
+        "year": 1992,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 5,
+                "in_collection": 44
+            }
+        }
+    },
+    {
+        "id": 11134562,
+        "status": "Accepted",
+        "type": "release",
+        "format": "CD, Album",
+        "label": "Unity Records (16)",
+        "title": "Visitor",
+        "resource_url": "https://api.discogs.com/releases/11134562",
+        "role": "Appearance",
+        "artist": "Jacek Kochan",
+        "year": 1992,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 4,
+                "in_collection": 6
+            }
+        }
+    },
+    {
+        "id": 748220,
+        "title": "No Jive",
+        "type": "master",
+        "main_release": 5771076,
+        "artist": "Buddy Rich",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/748220",
+        "year": 1992,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 2,
+                "in_collection": 29
+            }
+        }
+    },
+    {
+        "id": 1425892,
+        "title": "I Can't Sit Down",
+        "type": "master",
+        "main_release": 8217060,
+        "artist": "Eric Nagler",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/1425892",
+        "year": 1992,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 2,
+                "in_collection": 0
+            }
+        }
+    },
+    {
+        "id": 4223615,
+        "status": "Accepted",
+        "type": "release",
+        "format": "CD, Album",
+        "label": "The Jazz Alliance",
+        "title": "Building Bridges",
+        "resource_url": "https://api.discogs.com/releases/4223615",
+        "role": "Appearance",
+        "artist": "Memo Acevedo",
+        "year": 1994,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 5,
+                "in_collection": 8
+            }
+        }
+    },
+    {
+        "id": 9471708,
+        "status": "Accepted",
+        "type": "release",
+        "format": "CD, Album, Comp",
+        "label": "Somerset Entertainment Ltd., Fisher-Price",
+        "title": "Mother Goose & More",
+        "resource_url": "https://api.discogs.com/releases/9471708",
+        "role": "Appearance",
+        "artist": "Sharon, Lois & Bram",
+        "year": 2002,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 0,
+                "in_collection": 4
+            }
+        }
+    },
+    {
+        "id": 474640,
+        "title": "Stop, Look & Listen",
+        "type": "master",
+        "main_release": 10666995,
+        "artist": "Mario Castro Neves",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/474640",
+        "year": 2005,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 18,
+                "in_collection": 9
+            }
+        }
+    },
+    {
+        "id": 13424884,
+        "status": "Accepted",
+        "type": "release",
+        "format": "CD",
+        "label": "St. Kitts Music, Inc.",
+        "title": "A Lot Of Livin' To Do",
+        "resource_url": "https://api.discogs.com/releases/13424884",
+        "role": "Appearance",
+        "artist": "George St. Kitts",
+        "year": 2007,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 4,
+                "in_collection": 4
+            }
+        }
+    },
+    {
+        "id": 5437560,
+        "status": "Accepted",
+        "type": "release",
+        "format": "2xCD, Album, Comp",
+        "label": "BGO Records",
+        "title": "A Different Drummer / Stick It",
+        "resource_url": "https://api.discogs.com/releases/5437560",
+        "role": "Appearance",
+        "artist": "Buddy Rich",
+        "trackinfo": "Straight, No Chaser",
+        "year": 2011,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 14,
+                "in_collection": 15
+            }
+        }
+    },
+    {
+        "id": 1765406,
+        "title": "Great Big Hits",
+        "type": "master",
+        "main_release": 23183489,
+        "artist": "Sharon, Lois & Bram",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/1765406",
+        "year": 2022,
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 0,
+                "in_collection": 1
+            }
+        }
+    },
+    {
+        "id": 6435482,
+        "status": "Accepted",
+        "type": "release",
+        "format": "2xCD, Album",
+        "label": "Sackville Recordings, Sackville Recordings",
+        "title": "Just For Now",
+        "resource_url": "https://api.discogs.com/releases/6435482",
+        "role": "Appearance",
+        "artist": "The Dave McMurdo Jazz Orchestra",
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 4,
+                "in_collection": 6
+            }
+        }
+    },
+    {
+        "id": 6436722,
+        "status": "Accepted",
+        "type": "release",
+        "format": "CD, Album",
+        "label": "Sackville Recordings, Sackville Recordings",
+        "title": "Live At The Montreal Bistro",
+        "resource_url": "https://api.discogs.com/releases/6436722",
+        "role": "Appearance",
+        "artist": "The Dave McMurdo Jazz Orchestra",
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 1,
+                "in_collection": 6
+            }
+        }
+    },
+    {
+        "id": 6438837,
+        "status": "Accepted",
+        "type": "release",
+        "format": "2xCD, Album",
+        "label": "Sackville Recordings, Sackville Recordings",
+        "title": "Fire & Song",
+        "resource_url": "https://api.discogs.com/releases/6438837",
+        "role": "Appearance",
+        "artist": "The Dave McMurdo Jazz Orchestra",
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 1,
+                "in_collection": 4
+            }
+        }
+    },
+    {
+        "id": 1452058,
+        "title": "Different Paths",
+        "type": "master",
+        "main_release": 6437116,
+        "artist": "The Dave McMurdo Jazz Orchestra",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/1452058",
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 4,
+                "in_collection": 6
+            }
+        }
+    },
+    {
+        "id": 1199302,
+        "title": "From Ginny With Love",
+        "type": "master",
+        "main_release": 10011632,
+        "artist": "Ginny Ambrose",
+        "role": "Appearance",
+        "resource_url": "https://api.discogs.com/masters/1199302",
+        "thumb": "",
+        "stats": {
+            "community": {
+                "in_wantlist": 2,
+                "in_collection": 10
+            }
+        }
+    }
+]

@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 
 const Header = () => {
   return (
-    <header className="w-full py-4 text-white bg-zinc-800">
+    <header className="w-full py-4 text-white bg-zinc-700 shadow-lg">
       <div className="container mx-auto px-4">
         <nav className="flex items-center justify-between">
           <div className="flex items-center">
