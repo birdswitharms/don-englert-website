@@ -5,9 +5,9 @@ import {massagedOutput} from '../app/util/music';
 
 const Music = () => {
   return (
-    <div className="mx-24 bg-zinc-500 p-4 grid grid-cols-2 gap-4">
+    <div className="mx-24 bg-zinc-500 p-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
       {massagedOutput.map((item) => (
-        <div className="bg-white shadow-lg rounded-lg p-4 mb-4" key={item.id}>
+        <div className="bg-white shadow-xl rounded-lg p-4 mb-4" key={item.id}>
           <div className="card">
             <p className="card-title text-lg font-bold">Title: {item.title}</p>
             <p className="card-text text-gray-600">Artist: {item.artist}</p>

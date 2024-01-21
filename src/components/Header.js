@@ -17,6 +17,7 @@ const Header = () => {
             <a href="/" className="hover:text-emerald-500 px-3 py-2">Home</a>
             <a href="/about" className="hover:text-emerald-500 px-3 py-2">About</a>
             <a href="/music" className="hover:text-emerald-500 px-3 py-2">Music</a>
+            <a href="/cv" className="hover:text-emerald-500 px-3 py-2">CV</a>
             <a href="/contact" className="hover:text-emerald-500 px-3 py-2">Contact</a>
           </div>
         </nav>
