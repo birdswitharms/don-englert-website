@@ -1,24 +1,51 @@
-import React from 'react';
-import '../app/globals.css';
-import {massagedOutput} from '../app/util/music';
+import React from "react";
+import "../app/globals.css";
+import { massagedOutput } from "../app/util/music";
+import {
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
 
-
+// type: item.type,
+// format: item.format,
+// label: item.label,
+// title: item.title,
+// resource_url: item.resource_url,
+// role: item.role,
+// year: item.year,
+// artist: item.artist
+console.log(massagedOutput);
 const Music = () => {
   return (
-    <div className="mx-24 bg-zinc-500 p-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
-      {massagedOutput.map((item) => (
-        <div className="bg-white shadow-xl rounded-lg p-4 mb-4" key={item.id}>
-          <div className="card">
-            <p className="card-title text-lg font-bold">Title: {item.title}</p>
-            <p className="card-text text-gray-600">Artist: {item.artist}</p>
-            <p className="card-text text-gray-600">Year: {item.year}</p>
-            {item.label && <p className="card-text text-gray-600">Label: {item.label}</p>}
-            {item.format && <p className="card-text text-gray-600">Format: {item.format}</p>}
-            <p className="card-text text-gray-600">Role: {item.role}</p>
-          </div>
-        </div>
-      ))}
-    </div>
+    <main className="mx-24 p-4 gap-4 bg-base text-white">
+      <Table className="text-[20px]">
+        <TableHeader>
+          <TableRow>
+            <TableHead className="w-[250px] text-white">Title</TableHead>
+            <TableHead className="text-white">Year</TableHead>
+            <TableHead className="text-white">Artist</TableHead>
+            <TableHead className="text-white">Format</TableHead>
+            <TableHead className="text-right text-white">Type</TableHead>
+          </TableRow>
+        </TableHeader>
+        <TableBody>
+          {massagedOutput.map((item) => (
+            <TableRow key={item.id}>
+              <TableCell className="font-medium">{item.title}</TableCell>
+              <TableCell>{item.year}</TableCell>
+              <TableCell>{item.artist}</TableCell>
+              <TableCell>{item.format}</TableCell>
+              <TableCell className="text-right">{item.type}</TableCell>
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+    </main>
   );
 };
 

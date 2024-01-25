@@ -1,24 +1,29 @@
-"use client"
+"use client";
 
-import React from 'react';
-import { useState, useEffect } from 'react';
+import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="w-full py-4 text-white bg-zinc-700 shadow-lg">
+    <header className="w-full relative py-4 text-white bg-slate-900 shadow-lg z-10">
       <div className="container mx-auto px-4">
         <nav className="flex items-center justify-between">
-          <div className="flex items-center">
-            <a href="/" className="text-xl text-emerald-300 font-bold">
-              Don Englert
-            </a>
-          </div>
-          <div className="flex items-center">
-            <a href="/" className="hover:text-emerald-500 px-3 py-2">Home</a>
-            <a href="/about" className="hover:text-emerald-500 px-3 py-2">About</a>
-            <a href="/music" className="hover:text-emerald-500 px-3 py-2">Music</a>
-            <a href="/cv" className="hover:text-emerald-500 px-3 py-2">CV</a>
-            <a href="/contact" className="hover:text-emerald-500 px-3 py-2">Contact</a>
+          <div></div>
+          <div className="flex items-center text-xl tracking-wider">
+            <Link href="/" className="hover:text-red-500 px-3 py-2">
+              HOME
+            </Link>
+            <Link href="/bio" className="hover:text-red-500 px-3 py-2">
+              BIO
+            </Link>
+            <Link href="/music" className="hover:text-red-500 px-3 py-2">
+              MUSIC
+            </Link>
+            <Link href="/cv" className="hover:text-red-500 px-3 py-2">
+              CV
+            </Link>
+            <Link href="/contact" className="hover:text-red-500 px-3 py-2">
+              CONTACT
+            </Link>
           </div>
         </nav>
       </div>
