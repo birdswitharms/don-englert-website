@@ -13,11 +13,13 @@ export default function Home() {
         <h1 className="font-bold text-slate-900 w-full text-left leading-[110px] sm:leading-[135px] text-[115px] sm:text-[180px] tracking-wide">
           DON
           <br />
-          ENGLERT
+          ENGLERT.
           <br />
-          JAZZ
+          FREELANCE
           <br />
-          LEGEND
+          MUSICIAN &
+          <br />
+          EDUCATOR
         </h1>
       </div>
     </main>
