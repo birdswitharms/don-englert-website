@@ -1,45 +1,120 @@
-import React from 'react';
-import '../app/globals.css'
-import emailjs from 'emailjs-com';
+"use client";
+import "../app/globals.css";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { useForm } from "react-hook-form";
+import { z } from "zod";
+import emailjs from "emailjs-com";
 
-// const sendEmail = (e) => {
-//   e.preventDefault();
+import { Button } from "@/components/ui/button";
+import {
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from "@/components/ui/form";
+import { Textarea } from "@/components/ui/textarea";
+import { Input } from "@/components/ui/input";
 
-//   emailjs.sendForm(
-//     process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
-//     process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
-//     e.target,
-//     process.env.NEXT_PUBLIC_EMAILJS_USER_ID
-//   ).then((result) => {
-//         console.log(result.text);
-//     }, (error) => {
-//         console.log(error.text);
-//     });
-// }
+const formSchema = z.object({
+  name: z.string().min(2).max(50),
+  email: z.string().email(),
+  message: z.string().min(2),
+});
 
 const Contact = () => {
+  const form = useForm({
+    resolver: zodResolver(formSchema),
+    defaultValues: {
+      name: "",
+      email: "",
+      message: "",
+    },
+  });
+
+  function onSubmit(values) {
+    emailjs
+      .sendForm(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+        values,
+        process.env.NEXT_PUBLIC_EMAILJS_USER_ID
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    console.log(values);
+  }
+
   return (
-    <section className="flex min-h-screen justify-between p-24">
-      <div className="flex-row w-96">
-        <form onSubmit={() => {console.log('test!')}}>
-          <div className="mb-4 ">
-            <label><div className="mb-1">Name</div></label>
-            <input className="w-full text-black pl-2 bg-gray-300 rounded" type="text" name="name" />
-          </div>
-          <div className="mb-4 w-full">
-            <label><div className="mb-1">Email</div></label>
-            <input className="w-full text-black pl-2 bg-gray-300 rounded" type="email" name="email" />
-          </div>
-          <div className="mb-4 w-full">
-            <label><div className="mb-1">Message</div></label>
-            <textarea className="w-full h-32 text-black pl-2 pr-2 bg-gray-300 rounded resize-none" name="message"></textarea>
-          </div>
-          <input className="hover:underline" type="submit" value="Submit &#8594;" />
-        </form>
+    <section className="flex min-h-screen p-20">
+      <div className="w-full max-w-[600px] m-auto">
+        <Form {...form}>
+          <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+            <FormField
+              control={form.control}
+              name="name"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel className="text-white">Name</FormLabel>
+                  <FormControl>
+                    <Input
+                      className="bg-white"
+                      placeholder="Name..."
+                      {...field}
+                    />
+                  </FormControl>
+                  <FormMessage className="text-white" />
+                </FormItem>
+              )}
+            />
+            <FormField
+              control={form.control}
+              name="email"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel className="text-white">Email</FormLabel>
+                  <FormControl>
+                    <Input
+                      className="bg-white"
+                      placeholder="Email..."
+                      {...field}
+                    />
+                  </FormControl>
+                  <FormMessage className="text-white" />
+                </FormItem>
+              )}
+            />
+            <FormField
+              control={form.control}
+              name="message"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel className="text-white">Message</FormLabel>
+                  <FormControl>
+                    <Textarea
+                      className="bg-white h-32"
+                      placeholder="Message here..."
+                      {...field}
+                    />
+                  </FormControl>
+                  <FormMessage className="text-white" />
+                </FormItem>
+              )}
+            />
+            <Button type="submit">Submit</Button>
+          </form>
+        </Form>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default Contact;
-

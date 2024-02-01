@@ -11,15 +11,6 @@ import {
   TableRow,
 } from "@/components/ui/table";
 
-// type: item.type,
-// format: item.format,
-// label: item.label,
-// title: item.title,
-// resource_url: item.resource_url,
-// role: item.role,
-// year: item.year,
-// artist: item.artist
-console.log(massagedOutput);
 const Music = () => {
   return (
     <main className="mx-24 p-4 gap-4 bg-base text-white">

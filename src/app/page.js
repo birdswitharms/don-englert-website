@@ -9,8 +9,8 @@ export default function Home() {
       }}
     >
       <div className="bg z-0"></div>
-      <div className="mt-12 ml-12">
-        <h1 className="font-bold text-slate-900 w-full text-left leading-[110px] md:leading-[135px] text-[140px] md:text-[180px] tracking-wide">
+      <div className="sm:mt-12 sm:ml-12 mt-12 m-0">
+        <h1 className="font-bold text-slate-900 w-full text-left leading-[110px] sm:leading-[135px] text-[115px] sm:text-[180px] tracking-wide">
           DON
           <br />
           ENGLERT

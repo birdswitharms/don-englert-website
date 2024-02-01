@@ -71,6 +71,11 @@
   src: url("/fonts/FrontPageNeue.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Switzer";
+  src: url("/fonts/Switzer.woff2") format("woff2");
+}
+
 @layer base {
   * {
     @apply border-border;
@@ -78,8 +83,12 @@
   body {
     @apply bg-background text-foreground;
     background-color: #8f1616;
-    font-family: "FrontPageNeue", sans-serif;
+    font-family: "Switzer", sans-serif;
   }
+}
+
+h1 {
+  font-family: "FrontPageNeue", sans-serif;
 }
 
 .bg {
