@@ -402,7 +402,7 @@ const cv = () => {
         <li>Fire & Song, Glen Rutledge · I Found A New World</li>
         <li>Susan Cogan · One</li>
         <li>Big Bird And Oscar The Grouch · Camping In Canada</li>
-        <li>Carlyn Leacook · A Different Woma</li>
+        <li>Carlyn Leacook · A Different Woman</li>
       </ul>
       <br />
       <strong className="underline">Awards</strong>
