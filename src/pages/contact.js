@@ -33,12 +33,12 @@ const Contact = () => {
     },
   });
 
-  function onSubmit(values) {
+  function onSubmit(_values) {
     emailjs
       .sendForm(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
-        values,
+        "#contact-form",
         process.env.NEXT_PUBLIC_EMAILJS_USER_ID
       )
       .then(
@@ -49,15 +49,17 @@ const Contact = () => {
           console.log(error.text);
         }
       );
-
-    console.log(values);
   }
 
   return (
     <section className="flex min-h-screen p-20">
       <div className="w-full max-w-[600px] m-auto">
         <Form {...form}>
-          <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+          <form
+            onSubmit={form.handleSubmit(onSubmit)}
+            id="contact-form"
+            className="space-y-8"
+          >
             <FormField
               control={form.control}
               name="name"
