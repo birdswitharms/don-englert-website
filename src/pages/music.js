@@ -13,8 +13,8 @@ import {
 
 const Music = () => {
   return (
-    <main className="m-0 pt-4 sm:mx-24 sm:text-sm sm:p-4 gap-4 bg-base text-white">
-      <Table className="text-[20px]">
+    <main className="m-0 p-4 sm:mx-24 sm:p-4 gap-4 bg-base text-white">
+      <Table className="text-[11px] sm:text-[20px]">
         <TableHeader>
           <TableRow>
             <TableHead className="w-[250px] text-white">Title</TableHead>
