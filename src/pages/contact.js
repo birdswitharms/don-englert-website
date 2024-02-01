@@ -33,7 +33,7 @@ const Contact = () => {
     },
   });
 
-  function onSubmit(_values) {
+  function onSubmit(values) {
     emailjs
       .sendForm(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
