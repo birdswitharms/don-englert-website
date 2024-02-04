@@ -27,31 +27,34 @@ const Music = () => {
           </TableRow>
         </TableHeader>
         <TableBody>
-          {massagedOutput.map((item) => (
-            <TableRow key={item.id}>
-              <TableCell className="font-medium">
-                <Image
-                  unoptimized
-                  src={`/covers/${item.title}.jpeg`}
-                  alt={item.title}
-                  width={100}
-                  height={100}
-                  style={{ height: "auto" }}
-                  onError={(e) => {
-                    e.target.onError = null;
-                    e.target.replaceWith(
-                      document.createTextNode("Cover not available.")
-                    );
-                  }}
-                />
-              </TableCell>
-              <TableCell className="font-medium">{item.title}</TableCell>
-              <TableCell>{item.year}</TableCell>
-              <TableCell>{item.artist}</TableCell>
-              <TableCell>{item.format}</TableCell>
-              <TableCell className="text-right">{item.type}</TableCell>
-            </TableRow>
-          ))}
+          {massagedOutput.map((item) => {
+            console.log(item);
+            return (
+              <TableRow key={item.id}>
+                <TableCell className="font-medium">
+                  <Image
+                    unoptimized
+                    src={`/covers/${item.title}.jpeg`}
+                    alt={item.title}
+                    width={100}
+                    height={100}
+                    style={{ height: "auto" }}
+                    onError={(e) => {
+                      e.target.onError = null;
+                      e.target.replaceWith(
+                        document.createTextNode("Cover not available.")
+                      );
+                    }}
+                  />
+                </TableCell>
+                <TableCell className="font-medium">{item.title}</TableCell>
+                <TableCell>{item.year}</TableCell>
+                <TableCell>{item.artist}</TableCell>
+                <TableCell>{item.format}</TableCell>
+                <TableCell className="text-right">{item.type}</TableCell>
+              </TableRow>
+            );
+          })}
         </TableBody>
       </Table>
     </main>
