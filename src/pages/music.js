@@ -31,6 +31,7 @@ const Music = () => {
             <TableRow key={item.id}>
               <TableCell className="font-medium">
                 <Image
+                  unoptimized
                   src={`/covers/${item.title}.jpeg`}
                   alt={item.title}
                   width={100}
