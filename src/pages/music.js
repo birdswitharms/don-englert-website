@@ -1,5 +1,6 @@
 import React from "react";
 import "../app/globals.css";
+import Image from "next/image";
 import { massagedOutput } from "../app/util/music";
 import {
   Table,
@@ -17,6 +18,7 @@ const Music = () => {
       <Table className="text-[11px] sm:text-[20px]">
         <TableHeader>
           <TableRow>
+            <TableHead className="w-[100px] text-white">Album Cover</TableHead>
             <TableHead className="w-[250px] text-white">Title</TableHead>
             <TableHead className="text-white">Year</TableHead>
             <TableHead className="text-white">Artist</TableHead>
@@ -27,6 +29,26 @@ const Music = () => {
         <TableBody>
           {massagedOutput.map((item) => (
             <TableRow key={item.id}>
+              <TableCell className="font-medium">
+                <Image
+                  src={`/covers/${item.title}.jpeg`}
+                  alt={item.title}
+                  width={100}
+                  height={100}
+                  style={{ height: "auto" }}
+                  onError={(e) => {
+                    e.target.onError = null;
+                    e.target.src = "/covers/missing.jpeg";
+                    if (!e.target.src.endsWith("/covers/missing.jpeg")) {
+                      e.target.src = "/covers/missing.jpeg";
+                    } else {
+                      e.target.replaceWith(
+                        document.createTextNode("Cover not available.")
+                      );
+                    }
+                  }}
+                />
+              </TableCell>
               <TableCell className="font-medium">{item.title}</TableCell>
               <TableCell>{item.year}</TableCell>
               <TableCell>{item.artist}</TableCell>

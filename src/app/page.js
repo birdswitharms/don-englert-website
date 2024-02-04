@@ -15,11 +15,9 @@ export default function Home() {
           <br />
           ENGLERT.
           <br />
-          FREELANCE
+          MUSICIAN.
           <br />
-          MUSICIAN &
-          <br />
-          EDUCATOR
+          EDUCATOR.
         </h1>
       </div>
     </main>

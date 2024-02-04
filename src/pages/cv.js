@@ -32,14 +32,15 @@ const cv = () => {
           <i>Jingles, Motion Pictures, Recordings, Television</i>
         </li>
         <li>
-          Symphony Orchestras in Ontario, Toronto ·{" "}
+          Symphony Orchestras in Ontario ·{" "}
           <i>
             {" "}
-            Stratford Festival (25 years), Kitchener-Waterloo, Mississauga,
-            Brantford, National Arts Centre, The National Ballet Orchestra,
-            Cellar Singers Orchestra in Orillia, Canada Pops Orchestra, Aurora
-            Festival Orchestra (Bramwell Tovey Conductor) Howard Cable Orch.,
-            Array Orch. Robert Aiken’s “New Music Series”
+            Toronto Symphony Orchestra, Stratford Festival (25 years),
+            Kitchener-Waterloo, Mississauga, Brantford, National Arts Centre,
+            The National Ballet Orchestra, Cellar Singers Orchestra in Orillia,
+            Canada Pops Orchestra, Aurora Festival Orchestra (Bramwell Tovey
+            Conductor) Howard Cable Orch., Array Orch. Robert Aiken’s “New Music
+            Series”
           </i>
         </li>
         <li>
@@ -98,7 +99,7 @@ const cv = () => {
       <strong className="underline">
         Artists I Have Worked With As A Freelance Musician
       </strong>
-      <div className="grid grid-cols-4 gap-2">
+      <div className="grid grid-cols-3 gap-2">
         <div>· Andy Gibb</div>
         <div>· Annie Ross</div>
         <div>· Aretha Franklin</div>
@@ -157,7 +158,7 @@ const cv = () => {
         <div>· Martin Short</div>
         <div>· Maureen Forester</div>
         <div>· Maureen McGovern</div>
-        <div>· MeashaBrueggergosman</div>
+        <div>· Measha Brueggergosman</div>
         <div>· Mel Torme</div>
         <div>· Michael Bolton</div>
         <div>· Mickey Rooney</div>
@@ -216,7 +217,7 @@ const cv = () => {
       </div>
       <br />
       <strong className="underline">Musicals</strong>
-      <div className="grid grid-cols-4 gap-2">
+      <div className="grid grid-cols-3 gap-2">
         <div>· A Chorus Line</div>
         <div>· Anything Goes</div>
         <div>· Bubbling Brown Sugar</div>
@@ -319,7 +320,7 @@ const cv = () => {
       </ul>
       <br />
       <strong className="underline">Bands</strong>
-      <div className="grid grid-cols-4 gap-2">
+      <div className="grid grid-cols-3 gap-2">
         <div>· Buddy Rich</div>
         <div>· Louis Bellson</div>
         <div>· Stan Kenton</div>
@@ -346,7 +347,7 @@ const cv = () => {
       </div>
       <br />
       <strong className="underline">Film and TV</strong>
-      <div className="grid grid-cols-4 gap-2">
+      <div className="grid grid-cols-3 gap-2">
         <div>· Mary Jane,</div>
         <div>· Killers Three,</div>
         <div>· Circle of Two,</div>
