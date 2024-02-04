@@ -39,14 +39,9 @@ const Music = () => {
                   style={{ height: "auto" }}
                   onError={(e) => {
                     e.target.onError = null;
-                    e.target.src = "/covers/Missing.jpeg";
-                    if (!e.target.src.endsWith("/covers/Missing.jpeg")) {
-                      e.target.src = "/covers/Missing.jpeg";
-                    } else {
-                      e.target.replaceWith(
-                        document.createTextNode("Cover not available.")
-                      );
-                    }
+                    e.target.replaceWith(
+                      document.createTextNode("Cover not available.")
+                    );
                   }}
                 />
               </TableCell>
