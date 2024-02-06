@@ -32,7 +32,14 @@ const Music = () => {
             return (
               <TableRow key={item.id}>
                 <TableCell className="font-medium">
-                  <Image
+                  <img
+                    src={`/covers/${item.title}.jpeg`}
+                    alt={item.title}
+                    width={100}
+                    height={100}
+                    style={{ height: "auto" }}
+                  />
+                  {/* <Image
                     unoptimized
                     src={`/covers/${item.title}.jpeg`}
                     alt={item.title}
@@ -45,7 +52,7 @@ const Music = () => {
                         document.createTextNode("Cover not available.")
                       );
                     }}
-                  />
+                  /> */}
                 </TableCell>
                 <TableCell className="font-medium">{item.title}</TableCell>
                 <TableCell>{item.year}</TableCell>
