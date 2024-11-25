@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "Don Englert • Jazz Musician",
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
         content="width=device-width, initial-scale=1"
       ></meta>
       <body>
+        <Analytics />
         <Header />
         {children}
       </body>
