@@ -9,7 +9,7 @@ const Bio = () => {
           Don Englert was born in Detroit, MI. where he studied the Accordian at
           age 5, a few years later he moved to Los Angeles. In high school he
           started studying the Saxophone and later studied the Clarinet, Flute,
-          Oboe, and the English Horn. Began performing while in High School.
+          Oboe, and the English Horn.
         </div>
         <div>
           He later studied music at California State University, Northridge and
