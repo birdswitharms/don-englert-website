@@ -21,9 +21,9 @@ const Header = () => {
             <Link href="/cv" className="hover:text-red-500 px-3 py-2">
               CV
             </Link>
-            <Link href="/contact" className="hover:text-red-500 px-3 py-2">
+            {/* <Link href="/contact" className="hover:text-red-500 px-3 py-2">
               CONTACT
-            </Link>
+            </Link> */}
           </div>
         </nav>
       </div>
