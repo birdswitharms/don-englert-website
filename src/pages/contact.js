@@ -35,21 +35,29 @@ const Contact = () => {
 
   function onSubmit(values) {
     emailjs
-      .sendForm(
+      .send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
-        "#contact-form",
+        {
+          from_name: values.name,
+          from_email: values.email,
+          message: values.message,
+        },
         process.env.NEXT_PUBLIC_EMAILJS_USER_ID
       )
       .then(
         (result) => {
-          console.log(result.text);
+          console.log("Email sent successfully:", result.text);
+          form.reset();
+          alert("Message sent successfully!");
         },
         (error) => {
-          console.log(error.text);
+          console.log("Email send failed:", error.text);
+          alert("Failed to send message. Please try again.");
         }
       );
   }
+
 
   return (
     <section className="flex min-h-screen p-20">
