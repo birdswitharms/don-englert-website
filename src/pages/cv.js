@@ -3,7 +3,7 @@ import "../app/globals.css";
 
 const cv = () => {
   return (
-    <div className="text-left text-lg text-black mx-0 sm:mx-24 justify-center bg-zinc-200 p-2 sm:p-6 shadow-lg">
+    <div className="text-left text-lg text-[#2a1a1a] mx-0 sm:mx-24 justify-center bg-[#f0e6d8] p-2 sm:p-6 shadow-lg">
       <strong className="underline">Professional Instruments</strong>
       <ul>
         <li>Saxophone (Bass, Baritone, Tenor, Alto and Soprano)</li>

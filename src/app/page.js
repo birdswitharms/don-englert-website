@@ -10,7 +10,7 @@ export default function Home() {
     >
       <div className="bg z-0"></div>
       <div className="sm:mt-12 sm:ml-12 mt-12 m-0">
-        <h1 className="font-bold text-slate-900 w-full text-left leading-[110px] sm:leading-[135px] text-[115px] sm:text-[180px] tracking-wide">
+        <h1 className="font-bold text-[#1a1210] w-full text-left leading-[110px] sm:leading-[135px] text-[115px] sm:text-[180px] tracking-wide">
           DON
           <br />
           ENGLERT.

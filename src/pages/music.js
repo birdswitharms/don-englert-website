@@ -18,17 +18,17 @@ const Music = () => {
   const [expandedId, setExpandedId] = useState(null);
 
   return (
-    <main className="m-0 p-4 sm:mx-24 sm:p-4 gap-4 bg-base text-white">
+    <main className="m-0 p-4 sm:mx-24 sm:p-4 gap-4 bg-base text-[#ede0d0]">
       <Table className="text-[11px] sm:text-[20px]">
         <TableHeader>
           <TableRow>
-            <TableHead className="w-[50px] text-white"></TableHead>
-            <TableHead className="w-[100px] text-white">Album Cover</TableHead>
-            <TableHead className="w-[250px] text-white">Title</TableHead>
-            <TableHead className="text-white">Year</TableHead>
-            <TableHead className="text-white">Artist</TableHead>
-            <TableHead className="text-white">Format</TableHead>
-            <TableHead className="text-right text-white">Type</TableHead>
+            <TableHead className="w-[50px] text-[#ede0d0]"></TableHead>
+            <TableHead className="w-[100px] text-[#ede0d0]">Album Cover</TableHead>
+            <TableHead className="w-[250px] text-[#ede0d0]">Title</TableHead>
+            <TableHead className="text-[#ede0d0]">Year</TableHead>
+            <TableHead className="text-[#ede0d0]">Artist</TableHead>
+            <TableHead className="text-[#ede0d0]">Format</TableHead>
+            <TableHead className="text-right text-[#ede0d0]">Type</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
@@ -43,7 +43,7 @@ const Music = () => {
                         onClick={() => setExpandedId(isExpanded ? null : item.id)}
                         aria-label={isExpanded ? "Close video" : "Play video"}
                       >
-                        <PlayIcon className={`w-5 h-5 hover:text-gray-300 ${isExpanded ? "text-red-500" : "text-white"}`} />
+                        <PlayIcon className={`w-5 h-5 hover:text-amber-200 ${isExpanded ? "text-amber-400" : "text-[#ede0d0]"}`} />
                       </button>
                     )}
                   </TableCell>
