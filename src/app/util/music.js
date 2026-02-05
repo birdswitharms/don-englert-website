@@ -11,5 +11,6 @@ export const massagedOutput = discog_output.map(item => ({
   resource_url: item.resource_url,
   role: item.role,
   year: item.year,
-  artist: item.artist
+  artist: item.artist,
+  videoId: item.video ? item.video : null
 }));
