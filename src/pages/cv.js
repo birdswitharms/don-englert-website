@@ -102,11 +102,11 @@ const CV = () => {
           </li>
           <li className="flex items-start">
             <span className="text-[#8b4513] mr-3">★</span>
-            <span><strong>Hollywood Bowl Award</strong> — Best Big Band ("Jazz Cats"), California All State Colleges Woodwind Ensemble under Frederick Fennell</span>
+            <span><strong>Hollywood Bowl Award</strong> — Best Big Band (&ldquo;Jazz Cats&rdquo;), California All State Colleges Woodwind Ensemble under Frederick Fennell</span>
           </li>
           <li className="flex items-start">
             <span className="text-[#8b4513] mr-3">★</span>
-            <span>Featured in <em>"Toronto Treasures"</em> by Pat LaCroix and Ted O'Reilly (100 of Toronto's Jazz Musicians)</span>
+            <span>Featured in <em>&ldquo;Toronto Treasures&rdquo;</em> by Pat LaCroix and Ted O&rsquo;Reilly (100 of Toronto&rsquo;s Jazz Musicians)</span>
           </li>
         </ul>
       </Section>
@@ -129,7 +129,7 @@ const CV = () => {
 
       <Section title="Recordings">
         <ul className="space-y-2 list-disc list-inside">
-          <li>The Rovers — <em>Wasn't That A Party</em></li>
+          <li>The Rovers — <em>Wasn&rsquo;t That A Party</em></li>
           <li>Rob McConnell — <em>The Boss Of The Boss Brass</em></li>
           <li>Sammy Nestico — <em>Night Flight</em></li>
           <li>Eric Nagler — <em>Come On In & Fiddle Up A Tune</em></li>
@@ -140,7 +140,7 @@ const CV = () => {
           <li>David Pendeth — <em>The Pendeth Band</em></li>
           <li>Lawrence Shragge — <em>Big Foot Betty</em></li>
           <li>Ginny Ambrose — <em>From Ginny With Love</em></li>
-          <li>Long John Baldry — <em>Baldry's Out</em></li>
+          <li>Long John Baldry — <em>Baldry&rsquo;s Out</em></li>
           <li>Jim Howard/Pat Sullivan Big Band — <em>No Compromise</em></li>
           <li>Sharon, Lois & Bram — <em>Happy Birthday</em>, <em>Stay Tuned</em>, <em>Elephant Show Record</em>, <em>Mainly Mother Goose</em>, and more</li>
           <li>Mario Castro-Neves — <em>The Latin Band</em></li>
